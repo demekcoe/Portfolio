@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/additional-styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <!-- Header -->
     <header>
         <nav>
-            <div class="logo">Portfolio</div>
+            <div class="logo">DeMekco Eberhardt</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -30,13 +32,69 @@
         </div>
     </section>
 
+    <!-- Profile Section -->
+    <section id="skills" class="profile-section">
+        <div class="profile-container">
+            <div class="content-wrapper">
+                <div class="project-card skills-card">
+                    <h2>Skills</h2>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>Languages</h3>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>Python</li>
+                                <li>Data Management</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                                <li>Swift</li>
+                                <!-- Add more -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-image">
+                <img src="images/DeMekcoPort.jpeg" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+
     <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
         <div class="about-content">
             <div class="about-text">
-                <p>Hello! I'm a passionate software developer with a keen interest in creating elegant solutions to complex problems.</p>
+                <p>Hi, I’m DeMekco Eberhardt — a software engineer and 3D generalist based in Detroit, Michigan. I’m passionate about combining technology, creativity, and design to bring ideas to life in new and interactive ways.
+
+I work across a range of tools and languages including HTML, Python, Swift, and JavaScript, and I have hands-on experience in UX design, data and project management, and version control. Whether I’m coding a web interface, managing a production pipeline, or designing immersive digital spaces, I love finding that balance between technical precision and creative expression.
+
+My background in 3D and CGI has given me a unique perspective on how design and development can work together to tell powerful stories.</p>
                 <!-- Add more about yourself here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>App Development With Swift</h3>
+                <p>App Development with Swift Associate Certification</p>
+                <div class="project-links">
+                    <a href="https://www.credly.com/badges/47241ae6-6f28-47a4-9f1a-a2553a1c9667" class="btn">View Certificate</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Foundations of User Experience (UX) Design</h3>
+                <p>Google UX Certification</p>
+                <div class="project-links">
+                    <a href="https://www.coursera.org/account/accomplishments/verify/RZHFV33UL29X" class="btn">View Certificate</a>
+                </div>
+            </div>
+            
+                </div>
             </div>
         </div>
     </section>
@@ -47,31 +105,35 @@
         <div class="projects-grid">
             <!-- Project cards will be added here -->
             <div class="project-card">
-                <h3>Project 1</h3>
-                <p>Description of project 1</p>
+                <h3>UP! Animation website</h3>
+                <p>Front end and back end developer</p>
+                 <p>UI Designer</p>
                 <div class="project-links">
-                    <a href="#" class="btn">View Project</a>
-                    <a href="#" class="btn">GitHub</a>
+                    <a href="https://upanimate.netlify.app/" class="btn">View Project</a>
+                    
+                   
                 </div>
+                
             </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills-grid">
-            <!-- Add your skills here -->
-            <div class="skill-category">
-                <h3>Languages</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <!-- Add more -->
-                </ul>
-            </div>
-        </div>
+        
+         <div class="project-card">
+                <h3>The Raw Space Detroit</h3>
+                <p>back end developer</p>
+                <div class="project-links">
+                    <a href="https://rawspacedet.com/" class="btn">View Project</a>
+                </div>
+         </div>
+         </div>
+         <div class="project-card">
+                <h3>NAF Future Ready Labs</h3>
+                <p>Lead Intructor</p>
+                <p> Developed curriculum</p>
+                <div class="project-links">
+                    <a href="https://www.youtube.com/watch?v=tEcguAM2Pek&t=4s" class="btn">View Project</a>
+                </div>
+         </div>
+         </div>
+         
     </section>
 
     <!-- Contact Section -->
@@ -79,16 +141,17 @@
         <h2>Contact Me</h2>
         <div class="contact-content">
             <div class="social-links">
-                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/demekcoe" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/demekco-e-41b65b239" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:demekcoe2@gmail.com"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
+          <p>&copy; This website was coded entirely by DeMekco Eberhardt using VSCode</p>
+        <p>&copy; 2025 DeMekco Eberhardt. All rights reserved.</p>
     </footer>
 
     <script src="js/main.js"></script>

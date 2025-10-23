@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # My Portfolio
 
 This is my personal portfolio website showcasing my projects and skills.
@@ -46,3 +47,7 @@ cd yourusername.github.io
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+=======
+# Portfolio
+Portfolio for Demekco Eberhardt
+>>>>>>> 19a6e06398bef92a22029d56aea3f835f42345f8
